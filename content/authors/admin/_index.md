@@ -50,7 +50,7 @@ interests:
   - Embedded Systems
 
 education:
-  - area: MSc Complex Adaptivs Systems
+  - area: MSc Complex Adaptive Systems
     institution: Chalmers University of Technology
     date_start: 2021-08-01
     date_end: 2023-09-01
@@ -58,34 +58,41 @@ education:
       [Thesis]
     button:
       text: 'Read Thesis'
-      url: 'https://example.com'
+      url: 'https://research.chalmers.se/en/publication/540893'
   - area: BS Electrical Engineering
     institution: University of Washington
     date_start: 2015-09-01
     date_end: 2018-08-01
     summary: |
       Courses included:
-      - [TODO]
+      - Embedded Systems
+      - Computer Architecture
+      - Digital Logic
 
 work:
   - position: Robotics Research Engineer III
     company_name: RAD Lab, Texas Engineering Experiment Station, Texas A&M
-    company_url: ''
+    company_url: https://rad.engr.tamu.edu/ 
     company_logo: ''
     date_start: 2024-05-13
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - [TODO]
+      - Developing a customizable robotic manipulator for space applications
+      - Testing and debugging our flagship series elastic actuator and motor controller
+      - Developing the software architecture to interface with and control the robotic manipulator at the joint and arm levels
+      - Creating custom data analysis software to read and evaluate motor controller and actuator performance
   - position: Embedded Software Engineer
     company_name: PHYTEC America, LLC
-    company_url: ''
+    company_url: https://www.phytec.com/
     company_logo: ''
     date_start: 2018-10-01
     date_end: 2021-07-15
     summary: |
       Responsibilities include:
-      - [TODO]
+      - Created machine learning demos for our single-board computers for use at conferences
+      - Developed custom board support packages for our single-board computers (Linux, U-Boot)
+      - Debugged electrical hardware and software issues on our boards and in our BSPs
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
