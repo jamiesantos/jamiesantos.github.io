@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: polygon_luminary.svg
+          filename: rainbow-vortex.svg
           filters:
             brightness: 1.0
           size: cover
