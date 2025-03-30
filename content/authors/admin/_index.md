@@ -145,4 +145,4 @@ awards:
 
 ## About Me
 
-TODO
+Jamie Santos is a robotics research engineer at the RAD Lab at Texas A&M. Currently, she is on a team designing a customizable robotic manipulator for commercial space stations and lunar rovers. Jamie completed her master's degree in complex adaptive systems at Chalmers University in Göteborg, Sweden. At NASA Ames, she explored autonomous methods of alerting robots, like Astrobee, of changes in their environments, such as the ISS.
