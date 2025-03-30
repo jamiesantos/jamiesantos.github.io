@@ -30,14 +30,14 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        TODO
-    design:
-      columns: '1'
+ # -📚 block: markdown
+ #   content:
+ #     title: '📚 My Research'
+ #     subtitle: ''
+ #     text: |-
+ #       TODO
+ #   design:
+ #     columns: '1'
   - block: collection
     id: papers
     content:
@@ -49,30 +49,30 @@ sections:
     design:
       view: article-grid
       columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
+ # - block: collection
+ #   content:
+ #     title: Recent Publications
+ #     text: ""
+ #     filters:
+ #       folders:
+ #         - publication
+ #       exclude_featured: false
+ #   design:
+ #     view: citation
+ # - block: collection
+ #   id: talks
+ #   content:
+ #     title: Recent & Upcoming Talks
+ #     filters:
+ #       folders:
+ #         - event
+ #   design:
+ #     view: article-grid
+ #     columns: 1
   - block: collection
     id: news
     content:
-      title: Recent News
+      title: Articles
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
