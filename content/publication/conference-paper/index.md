@@ -7,6 +7,12 @@ title: 'Unsupervised Change Detection for Space Habitats Using 3D Point Clouds'
 authors:
   - admin
   - Holly Dinkel
+  - Julia Di
+  - Paulo Vinicius K. Borges
+  - Marina Moreira
+  - Oleg Alexandrov
+  - Brian Coltin
+  - Trey Smith
 
 date: '2024-01-04T00:00:00Z'
 doi: '10.2514/6.2024-1960'
@@ -39,12 +45,12 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+#url_pdf: ''
 url_code: 'https://github.com/nasa/isaac/tree/master/anomaly'
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
+#url_dataset: ''
+#url_poster: ''
+#url_project: ''
+#url_slides: ''
 url_source: 'youtube.com/watch?v=7WHp0dQYG4Y&themeRefresh=1'
 url_video: 'https://youtube.com'
 
@@ -60,15 +66,14 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - example
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 
 #{{% callout note %}}
 #Click the _Cite_ button above to demo the feature to enable visitors to import #publication metadata into their reference management software.
