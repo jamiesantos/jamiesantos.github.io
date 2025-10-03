@@ -1,23 +1,18 @@
 ---
-title: 'An example conference paper'
+title: 'Unsupervised Change Detection for Space Habitats Using 3D Point Clouds'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Robert Ford
+  - Holly Dinkel
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-
-date: '2013-07-01T00:00:00Z'
-doi: ''
+date: '2024-01-04T00:00:00Z'
+doi: '10.2514/6.2024-1960'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+#publishDate: '2017-01-01T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -25,16 +20,16 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: In *AIAA SciTech 2024*
+#publication_short: In *ICW*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: This work presents an algorithm for scene change detection from point clouds to enable autonomous robotic caretaking in future space habitats. Autonomous robotic systems will help maintain future deep-space habitats, such as the Gateway space station, which will be uncrewed for extended periods. Existing scene analysis software used on the International Space Station (ISS) relies on manually-labeled images for detecting changes. In contrast, the algorithm presented in this work uses raw, unlabeled point clouds as inputs. The algorithm first applies modified Expectation-Maximization Gaussian Mixture Model (GMM) clustering to two input point clouds. It then performs change detection by comparing the GMMs using the Earth Mover’s Distance. Experiments on data collected in a ground environment replicating the visual features of the ISS with an Astrobee free-flyer at NASA Ames Research Center demonstrate detection of multiple appearing and disappearing objects. The source code is publicly released to promote further development.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+#summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere #tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin #condimentum.
 
 tags:
-  - Large Language Models
+  - Anomaly Detection
 
 # Display this page in the Featured widget?
 featured: true
@@ -45,12 +40,12 @@ featured: true
 #   url: http://example.org
 
 url_pdf: ''
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_code: 'https://github.com/nasa/isaac/tree/master/anomaly'
+url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_source: 'youtube.com/watch?v=7WHp0dQYG4Y&themeRefresh=1'
 url_video: 'https://youtube.com'
 
 # Featured image
