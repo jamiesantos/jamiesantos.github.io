@@ -20,21 +20,19 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Robotics Research Engineer
+role: Robotics PhD Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Robotics and Automation Design Lab - Texas A&M University
-    url: https://rad.engr.tamu.edu/
+  - name: Autonomous Agents and Distributed Intelligence Laboratory
+    url: https://web.engr.oregonstate.edu/~ktumer/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:jamiesanto@.com'
+    url: 'mailto:santjami@oregonstate.edu'
     label: E-mail Me
-  - icon: brands/instagram
-    url: https://www.instagram.com/jamie_santoast/
   - icon: brands/github
     url: https://github.com/jamiesantos
   - icon: brands/linkedin
@@ -50,6 +48,9 @@ interests:
   - Embedded Systems
 
 education:
+  - area: PhD Robotics (Current)
+    institution: Oregon State University
+    date_start: 2025-09-24
   - area: MSc Complex Adaptive Systems
     institution: Chalmers University of Technology
     date_start: 2021-08-01
