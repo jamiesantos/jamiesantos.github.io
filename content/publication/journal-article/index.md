@@ -2,11 +2,21 @@
 title: "An example journal article"
 authors:
 - admin
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+- Holly Dinkel
+- Julia Di
+- Jamie Santos
+- Keenan Albee 
+- Paulo V.K. Borges
+- Marina Moreira
+- Ryan Soussan
+- Oleg Alexandrov
+- Brian Coltin
+- Trey Smith
+
+#author_notes:
+#- "Equal contribution"
+#- "Equal contribution"
+date: "2024-10-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -21,10 +31,10 @@ publication_types: ["article-journal"]
 publication: "*Journal of Source Themes, 1*(1)"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: This work presents AstrobeeCD, a system for 3D scene change detection toward near-real-time environmental awareness of space outposts using the Astrobee free-flying robot in microgravity. Assistive free-flyer robots autonomously caring for future crewed space habitats must be able to detect day-to-day interior changes to track inventory, detect and diagnose faults, and monitor the outpost status. A set of image and depth data from one time step is used to reconstruct a 3D model of the environment. The 3D model is used as the basis for comparison for free-flyer environment surveys at future time steps, where an image-based change detection algorithm identifies inconsistencies against the 3D model. Change detection is demonstrated using real image and pose data collected by an Astrobee robot in a test environment on Earth at NASA Ames Research Center and from microgravity aboard the International Space Station. Change detection computation time and performance are quantitatively evaluated on the test data captured on Earth, and it identifies scene changes more quickly than a point cloud clustering-based algorithm applied to data from the same surveys.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+#summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
 - Source Themes
@@ -33,13 +43,13 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_pdf: ''
+url_code: 'https://github.com/hollydinkel/astrobeecd'
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: ''
+url_source: 'https://www.sciencedirect.com/science/article/abs/pii/S0094576524003539'
 url_video: ''
 
 # Featured image
