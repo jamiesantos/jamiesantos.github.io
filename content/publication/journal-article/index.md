@@ -38,7 +38,7 @@ abstract: This work presents AstrobeeCD, a system for 3D scene change detection 
 
 tags:
 - Source Themes
-featured: false
+featured: true
 
 # links:
 # - name: ""
