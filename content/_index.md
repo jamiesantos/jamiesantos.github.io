@@ -69,9 +69,9 @@ sections:
  #   design:
  #     view: article-grid
  #     columns: 1
-  - block: collection
-    id: news
-    content:
+ # - block: collection
+ #   id: news
+ #   content:
  #     title: Articles
  #     subtitle: ''
  #     text: ''
@@ -89,15 +89,15 @@ sections:
  #       exclude_past: false
  #       publication_type: ""
       # Choose how many pages you would like to offset by
-      offset: 0
+ #     offset: 0
       # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
+ #     order: desc
+ #  design:
       # Choose a layout view
-      view: date-title-summary
+ #     view: date-title-summary
       # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+ #     spacing:
+ #       padding: [0, 0, 0, 0]
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
