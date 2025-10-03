@@ -55,11 +55,9 @@ education:
     institution: Chalmers University of Technology
     date_start: 2021-08-01
     date_end: 2023-09-01
-    summary: |
-      [Thesis]
     button:
       text: 'Read Thesis'
-      url: 'https://research.chalmers.se/en/publication/540893'
+      url: 'https://odr.chalmers.se/bitstreams/846e0216-431b-491c-924c-7975dd4da7ff/download'
   - area: BS Electrical Engineering
     institution: University of Washington
     date_start: 2015-09-01
@@ -134,13 +132,18 @@ skills:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: TODO
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: US Friends of Chalmers Scholarship
+    url: https://qs.topuniversities.com/scholarships/apply/632
+    date: '2021-08-01'
+    awarder: Barbro Osher Foundation
     summary: |
-      TODO
+      Full tuition scholarship for the top US student based on GPA and university ranking
+  - title: Lawrence & Lucille Frey Endowed Scholarship
+    url: ntegrator - UW Department of Electrical & Computer Engineering
+    date: '2017-06-01'
+    awarder: Lawrence & Lucille Frew Foundation
+    summary: |
+      Annually awarded to two students in the Dept. of Electrical and Computer Engineering for academic excellence
 
 ---
 
