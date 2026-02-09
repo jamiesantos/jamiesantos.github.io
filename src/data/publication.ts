@@ -17,17 +17,17 @@ export type Publication = {
 export const publications: Publication[] = [
 	{
 		id: "autonomous-manipulation-2025",
-		title: "Autonomous Manipulation for Space Robotics",
-		authors: ["Jamie Santos", "A. Collaborator"],
-		venue: "ERC",
-		year: 2025,
-		paperUrl: "https://example.org/papers/autonomous-manipulation.pdf",
-		codeUrl: "https://github.com/example/autonomous-manipulation",
-		videoUrl: "https://example.org/videos/autonomous-manipulation",
+		title: "AstrobeeCD: Change detection in microgravity with free-flying robots",
+		authors: ["Holly Dinkel", "Julia Di", "Jamie Santos", "Keenan Albee", "Paulo Borges", "Marina Moreira", "Oleg Alexandrov", "Brian Coltin", "Trey Smith"],
+		venue: "Acta Astronautica",
+		year: 2024,
+		paperUrl: "https://www.sciencedirect.com/science/article/abs/pii/S0094576524003539",
+		codeUrl: "https://github.com/hollydinkel/astrobeecd",
+		videoUrl: "https://www.youtube.com/watch?v=VfjV-zwFEtU",
 		image: {
-			src: "/social-card.png",
-			alt: "Autonomous Manipulation - cover",
-			href: "https://example.org/papers/autonomous-manipulation.pdf",
+			src: "/astrobee-iss.gif",
+			alt: "AstrobeeCD - cover",
+			href: "https://www.sciencedirect.com/science/article/abs/pii/S0094576524003539",
 		},
 	},
 ];
