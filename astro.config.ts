@@ -90,7 +90,10 @@ export default defineConfig({
 		optimizeDeps: {
 			exclude: ["@resvg/resvg-js"],
 		},
-		plugins: [tailwind(), rawFonts([".ttf", ".woff"])],
+		// Casting to `any` avoids a known type incompatibility between the Vite
+		// types pulled in by different packages (Astro vs other deps).
+		// biome-disable-next-line suspicious/noExplicitAny
+		plugins: [tailwind() as any, rawFonts([".ttf", ".woff"]) as any],
 	},
 	env: {
 		schema: {
