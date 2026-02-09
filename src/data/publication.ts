@@ -29,6 +29,36 @@ export const publications: Publication[] = [
 			alt: "AstrobeeCD - cover",
 			href: "https://www.sciencedirect.com/science/article/abs/pii/S0094576524003539",
 		},
+    },
+    {
+		id: "astrobee_aiaa",
+		title: "Unsupervised Change Detection for Space Habitats Using 3D Point Clouds",
+		authors: ["Jamie Santos", "Holly Dinkel", "Julia Di", "Paulo Borges", "Marina Moreira", "Oleg Alexandrov", "Brian Coltin", "Trey Smith"],
+		venue: "AIAA SciTech Forum",
+		year: 2023,
+		paperUrl: "https://arc.aiaa.org/doi/abs/10.2514/6.2024-1960",
+		codeUrl: "https://github.com/nasa/isaac/tree/master/anomaly/gmm-change-detection",
+		videoUrl: "https://www.youtube.com/watch?v=7WHp0dQYG4Y",
+		image: {
+			src: "/aiaa.png",
+			alt: "AIAA - cover",
+			href: "https://arc.aiaa.org/doi/abs/10.2514/6.2024-1960",
+		},
+    },
+    {
+		id: "thesis",
+		title: "Detecting Changes on the ISS Autonomously with 3D Point Clouds: An Unsupervised Learning Approach Using GMM Clustering",
+		authors: ["Jamie Santos"],
+		venue: "Chalmers University of Technology, Master's Thesis",
+		year: 2023,
+		paperUrl: "file:///Users/jamie/Downloads/2023%20Jamie%20Santos-3.pdf",
+		codeUrl: "https://github.com/nasa/isaac/tree/master/anomaly/gmm-change-detection",
+		videoUrl: "https://www.youtube.com/watch?v=7WHp0dQYG4Y",
+		image: {
+			src: "/thesis.png",
+			alt: "Thesis - cover",
+			href: "file:///Users/jamie/Downloads/2023%20Jamie%20Santos-3.pdf",
+		},
 	},
 ];
 
