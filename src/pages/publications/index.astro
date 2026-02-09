@@ -1,34 +1,70 @@
 ---
+import { getPublications } from "@/data/publication";
 import PageLayout from "@/layouts/Base.astro";
+
+const publications = getPublications();
 ---
 
 <PageLayout meta={{ title: "Publications" }}>
 	<section>
 		<h1 class="title mb-8">Publications</h1>
-		<p class="mb-4">A curated list of publications will appear here. For now, an example entry:</p>
-		<ul role="list" class="space-y-4">
-			<li>
-				<a
-					class="cactus-link"
-					href="https://example.org/papers/autonomous-manipulation.pdf"
-					target="_blank"
-					rel="noopener"
-				>
-					Autonomous Manipulation for Space Robotics — Jamie Santos et al. (2025)
-				</a>
-				<div class="text-sm text-gray-600 dark:text-gray-400">
-					Paper • <a
-						class="underline"
-						href="https://github.com/example/autonomous-manipulation"
-						target="_blank"
-						rel="noopener">Code</a
-					> • <a
-						class="underline"
-						href="https://example.org/videos/autonomous-manipulation"
-						target="_blank"
-						rel="noopener">Video</a>
-				</div>
-			</li>
+		<p class="mb-4">
+			A curated list of publications — each entry may optionally include an image (clickable).
+		</p>
+		<ul role="list" class="space-y-8">
+			{
+				publications.map((p) => (
+					<li class="flex items-start gap-6">
+						{p.image ? (
+							<a
+								href={p.image.href ?? p.paperUrl ?? "#"}
+								target="_blank"
+								rel="noopener"
+								class="shrink-0"
+							>
+								<img
+									src={p.image.src}
+									alt={p.image.alt ?? p.title}
+									class="h-24 w-40 rounded-md border bg-gray-50 object-cover dark:bg-gray-900"
+								/>
+							</a>
+						) : null}
+						<div>
+							<h3 class="text-lg font-semibold">
+								{p.paperUrl ? (
+									<a class="cactus-link" href={p.paperUrl} target="_blank" rel="noopener">
+										{p.title}
+									</a>
+								) : (
+									<span>{p.title}</span>
+								)}
+							</h3>
+							<div class="mt-1 text-sm text-gray-600 dark:text-gray-400">
+								{p.authors ? p.authors.join(", ") + " • " : ""}
+								{p.venue ? p.venue + " • " : ""}
+								{p.year}
+							</div>
+							<div class="mt-2 text-sm text-gray-600 dark:text-gray-400">
+								{p.paperUrl ? (
+									<a class="mr-3 underline" href={p.paperUrl} target="_blank" rel="noopener">
+										Paper
+									</a>
+								) : null}
+								{p.codeUrl ? (
+									<a class="mr-3 underline" href={p.codeUrl} target="_blank" rel="noopener">
+										Code
+									</a>
+								) : null}
+								{p.videoUrl ? (
+									<a class="underline" href={p.videoUrl} target="_blank" rel="noopener">
+										Video
+									</a>
+								) : null}
+							</div>
+						</div>
+					</li>
+				))
+			}
 		</ul>
 	</section>
 </PageLayout>
