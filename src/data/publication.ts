@@ -23,6 +23,8 @@ export const publications: Publication[] = [
 			"The International Joint Conference on Artifical Intelligence (IJCAI-ECAI) 2026 - Multi-Objective Decision Making (MODeM) Workshop",
 		year: 2026,
 		paperUrl: "https://modem2026.vub.ac.be/papers/MODeM_2026_paper_13.pdf",
+		codeUrl: "https://github.com/ayhanalp/NoveltyMOMA",
+		videoUrl: "https://www.youtube.com/watch?v=53k3qOwV9pE",
 		image: {
 			src: "/entropy_26.png",
 			alt: "Entropy-Augmented Multi-Objective Policy Optimization - cover",
