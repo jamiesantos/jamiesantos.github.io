@@ -24,7 +24,7 @@ export const publications: Publication[] = [
 		year: 2026,
 		paperUrl: "https://modem2026.vub.ac.be/papers/MODeM_2026_paper_13.pdf",
 		image: {
-			src: "/entropy_26.jpg",
+			src: "/entropy_26.png",
 			alt: "Entropy-Augmented Multi-Objective Policy Optimization - cover",
 			href: "https://openreview.net/forum?id=fPPqJcCnBy",
 		},
