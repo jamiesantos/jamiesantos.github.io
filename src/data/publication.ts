@@ -15,23 +15,49 @@ export type Publication = {
 };
 
 export const publications: Publication[] = [
-		{
+	{
+		id: "entropy-2026",
+		title: "Entropy-Augmented Multi-Objective Policy Optimization in Multiagent Systems",
+		authors: ["Jamie Santos", "Alp Aydeniz", "Raghav Thakar", "Kagan Tumer"],
+		venue:
+			"The International Joint Conference on Artifical Intelligence (IJCAI-ECAI) 2026 - Multi-Objective Decision Making (MODeM) Workshop",
+		year: 2026,
+		paperUrl: "https://modem2026.vub.ac.be/papers/MODeM_2026_paper_13.pdf",
+		image: {
+			src: "/entropy_26.jpg",
+			alt: "Entropy-Augmented Multi-Objective Policy Optimization - cover",
+			href: "https://openreview.net/forum?id=fPPqJcCnBy",
+		},
+	},
+	{
 		id: "reward-sparsity-2026",
-		title: "Reward Sparsity in Multi-Objective Reinforcement Learning: A Taxonomy and Key Challenges",
+		title:
+			"Reward Sparsity in Multi-Objective Reinforcement Learning: A Taxonomy and Key Challenges",
 		authors: ["Raghav Thakar", "Jamie Santos", "Alp Aydeniz", "Gaurav Dixit", "Kagan Tumer"],
-		venue: "The International Joint Conference on Artifical Intelligence (IJCAI-ECAI) 2026 - Multi-Objective Decision Making (MODeM) Workshop",
+		venue:
+			"The International Joint Conference on Artifical Intelligence (IJCAI-ECAI) 2026 - Multi-Objective Decision Making (MODeM) Workshop",
 		year: 2026,
 		paperUrl: "https://openreview.net/pdf?id=97fh9thi82",
 		image: {
-			src: "/astrobee-iss.gif",
-			alt: "AstrobeeCD - cover",
+			src: "/modem_26.jpg",
+			alt: "Reward Sparsity - cover",
 			href: "https://openreview.net/forum?id=97fh9thi82",
 		},
-    },
+	},
 	{
 		id: "autonomous-manipulation-2025",
 		title: "AstrobeeCD: Change detection in microgravity with free-flying robots",
-		authors: ["Holly Dinkel", "Julia Di", "Jamie Santos", "Keenan Albee", "Paulo Borges", "Marina Moreira", "Oleg Alexandrov", "Brian Coltin", "Trey Smith"],
+		authors: [
+			"Holly Dinkel",
+			"Julia Di",
+			"Jamie Santos",
+			"Keenan Albee",
+			"Paulo Borges",
+			"Marina Moreira",
+			"Oleg Alexandrov",
+			"Brian Coltin",
+			"Trey Smith",
+		],
 		venue: "Acta Astronautica",
 		year: 2024,
 		paperUrl: "https://www.sciencedirect.com/science/article/abs/pii/S0094576524003539",
@@ -42,11 +68,20 @@ export const publications: Publication[] = [
 			alt: "AstrobeeCD - cover",
 			href: "https://www.sciencedirect.com/science/article/abs/pii/S0094576524003539",
 		},
-    },
-    {
+	},
+	{
 		id: "astrobee_aiaa",
 		title: "Unsupervised Change Detection for Space Habitats Using 3D Point Clouds",
-		authors: ["Jamie Santos", "Holly Dinkel", "Julia Di", "Paulo Borges", "Marina Moreira", "Oleg Alexandrov", "Brian Coltin", "Trey Smith"],
+		authors: [
+			"Jamie Santos",
+			"Holly Dinkel",
+			"Julia Di",
+			"Paulo Borges",
+			"Marina Moreira",
+			"Oleg Alexandrov",
+			"Brian Coltin",
+			"Trey Smith",
+		],
 		venue: "AIAA SciTech Forum",
 		year: 2023,
 		paperUrl: "https://arc.aiaa.org/doi/abs/10.2514/6.2024-1960",
@@ -57,10 +92,11 @@ export const publications: Publication[] = [
 			alt: "AIAA - cover",
 			href: "https://arc.aiaa.org/doi/abs/10.2514/6.2024-1960",
 		},
-    },
-    {
+	},
+	{
 		id: "thesis",
-		title: "Detecting Changes on the ISS Autonomously with 3D Point Clouds: An Unsupervised Learning Approach Using GMM Clustering",
+		title:
+			"Detecting Changes on the ISS Autonomously with 3D Point Clouds: An Unsupervised Learning Approach Using GMM Clustering",
 		authors: ["Jamie Santos"],
 		venue: "Chalmers University of Technology, Master's Thesis",
 		year: 2023,
