@@ -15,6 +15,19 @@ export type Publication = {
 };
 
 export const publications: Publication[] = [
+		{
+		id: "reward-sparsity-2026",
+		title: "Reward Sparsity in Multi-Objective Reinforcement Learning: A Taxonomy and Key Challenges",
+		authors: ["Raghav Thakar", "Jamie Santos", "Alp Aydeniz", "Gaurav Dixit", "Kagan Tumer"],
+		venue: "The International Joint Conference on Artifical Intelligence (IJCAI-ECAI) 2026 - Multi-Objective Decision Making (MODeM) Workshop",
+		year: 2026,
+		paperUrl: "https://openreview.net/pdf?id=97fh9thi82",
+		image: {
+			src: "/astrobee-iss.gif",
+			alt: "AstrobeeCD - cover",
+			href: "https://openreview.net/forum?id=97fh9thi82",
+		},
+    },
 	{
 		id: "autonomous-manipulation-2025",
 		title: "AstrobeeCD: Change detection in microgravity with free-flying robots",
